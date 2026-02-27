@@ -14,7 +14,8 @@
 - **Type all Python functions**: add type hints for parameters and
   return types.  If the return type is `None`, it must *not* not be
   declared.
-- **Documentation**: every function must have **at least one line of documentation** (docstring).
+- **Documentation**: every function that is not a test must have **at
+  least one line of documentation** (docstring).
   - If a function has no docstring, suggest a very short one (one sentence) that states its purpose.
 - **Factorization / DRY**:
   - Keep code well factorized and avoid repetition.
