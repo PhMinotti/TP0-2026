@@ -11,7 +11,9 @@
 - Favor actionable suggestions, and explain the “why” briefly.
 
 ## Python quality guidelines
-- **Type all Python functions**: add type hints for parameters and return types.
+- **Type all Python functions**: add type hints for parameters and
+  return types.  If the return type is `None`, it must *not* not be
+  declared.
 - **Documentation**: every function must have **at least one line of documentation** (docstring).
   - If a function has no docstring, suggest a very short one (one sentence) that states its purpose.
 - **Factorization / DRY**:
