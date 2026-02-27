@@ -5,6 +5,7 @@
 - When you are unsure, ask clarifying questions.
 
 ## Pull requests & reviews
+- Do not summarize the changes.
 - Leave **comments in French**.
 - Use a **gentle, positive tone** in all review feedback.
 - Favor actionable suggestions, and explain the “why” briefly.
